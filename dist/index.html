@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			* {
+				margin: 0 auto;
+			}
+
+			html,
+			body {
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			canvas {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+
+				image-rendering: -moz-crisp-edges;
+				image-rendering: -webkit-crisp-edges;
+				image-rendering: pixelated;
+				image-rendering: crisp-edges;
+			}
+		</style>
+		<title>Pong ES6</title>
+	</head>
+	<body>
+		<script src="main.bundle.js"></script>
+	</body>
+</html>
